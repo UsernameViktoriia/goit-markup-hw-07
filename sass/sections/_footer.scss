@@ -1,0 +1,99 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2F303A;
+}
+.webstudio-footer {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+.webstudio-contacts {
+    width: 231px;
+}
+.contacts-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 20px;
+}
+.contacts-footer__link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    transition: color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+.address__link {
+    color: var(--primary-white-color);
+}
+.webstudio-socials {
+    margin-left: 70px;
+}
+.socials-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+.socials-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    .social-link {
+        color: var(--primary-white-color);
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
+    }
+}
+.social-icon {
+    fill: currentColor;
+}
+.social-link {
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--primary-white-color);
+    }
+}
+.form-footer {
+    margin-left: 93px;
+}
+.form-footer__text {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+.form-footer__group {
+    display: flex;
+    align-items: center;
+}
+.form-footer__input {
+    padding: 15px 16px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--primary-white-color);
+    &::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+.form-footer__icon {
+    margin-left: 10px;
+    fill: var(--primary-white-color);
+}
